@@ -77,7 +77,7 @@ export default function CombinedScreen({ navigation }) {
         dosagePerKg: medication.dosagePerKg,
         concentration: concentration,
         weight: weightKg,
-        calculatedDosage: dosage.toFixed(2) + ' ml',
+        calculatedVolume: dosage.toFixed(2) + ' ml',
       };
     });
   };
@@ -92,7 +92,7 @@ export default function CombinedScreen({ navigation }) {
   //   console.log(`  Dosage per kg: ${dosageInfo.dosagePerKg} mg/kg`);
   //   console.log(`  Concentration: ${dosageInfo.concentration} mg/mL`);
   //   console.log(`  Patient weight: ${dosageInfo.weight} kg`);
-  //   console.log(`  Calculated dosage: ${dosageInfo.calculatedDosage}`);
+  //   console.log(`  Calculated volume: ${dosageInfo.calculatedVolume}`);
   //   console.log('----------------------------');
   // });
 
